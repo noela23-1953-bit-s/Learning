@@ -10,7 +10,7 @@ public class ConversionTest {
    public void convertAmount_SameCurrency_ReturnsOriginalAmount() {
         ExchangeRate exchangeRate = new ExchangeRate();
         Conversion conversion = new Conversion(exchangeRate);
-        double result = conversion.convertAmount(100.0, "USD", "USD");
+        double result = conversion.convertAmount(350.0, "USD", "USD");
         assertEquals(100.0, result, 0.01);
     }
 
