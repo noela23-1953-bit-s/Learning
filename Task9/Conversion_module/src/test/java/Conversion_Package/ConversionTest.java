@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class ConversionTest {
 
     @Test
-    void convertAmount_SameCurrency_ReturnsOriginalAmount() {
+   public void convertAmount_SameCurrency_ReturnsOriginalAmount() {
         ExchangeRate exchangeRate = new ExchangeRate();
         Conversion conversion = new Conversion(exchangeRate);
         double result = conversion.convertAmount(100.0, "USD", "USD");
