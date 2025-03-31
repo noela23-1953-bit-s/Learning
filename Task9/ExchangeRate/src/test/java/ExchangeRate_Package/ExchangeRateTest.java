@@ -6,6 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class ExchangeRateTest {
     private ExchangeRate exchangeRate;
+    private covension convension;
 
     @BeforeEach
     void setUp() {
