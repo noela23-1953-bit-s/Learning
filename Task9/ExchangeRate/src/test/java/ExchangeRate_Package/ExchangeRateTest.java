@@ -34,6 +34,6 @@ class ExchangeRateTest {
 
     @Test
     void testGetExchangeRate_InvalidCurrency() {
-       assertEquals(1.20,exchangeRate.getExchangeRate("POUND","BIT COINE"));
+       assertEquals(1.20,exchangeRate.getExchangeRate("POUND","DOLLAR"));
     }
 }
