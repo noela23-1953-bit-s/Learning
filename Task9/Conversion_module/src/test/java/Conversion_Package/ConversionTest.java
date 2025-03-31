@@ -15,7 +15,7 @@ public class ConversionTest {
     }
 
     @Test
-    void convertAmount_DifferentCurrency_ReturnsConvertedAmount() {
+    protected void convertAmount_DifferentCurrency_ReturnsConvertedAmount() {
         ExchangeRate exchangeRate = new ExchangeRate();
         Conversion conversion = new Conversion(exchangeRate);
         double result = conversion.convertAmount(100.0, "USD", "UGX");
