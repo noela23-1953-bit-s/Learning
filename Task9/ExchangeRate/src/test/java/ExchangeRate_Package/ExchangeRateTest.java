@@ -27,7 +27,7 @@ class ExchangeRateTest {
     }
 
     @Test
-    void testGetExchangeRate_NariaToDollar() {
+  final void testGetExchangeRate_NariaToDollar() {
         assertEquals(1539.42, exchangeRate.getExchangeRate("NARIA", "DOLLAR"), 0.001,
                 "NARIA to DOLLAR conversion is correct");
     }
