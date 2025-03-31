@@ -17,7 +17,7 @@ class ExchangeRateTest {
     void testGetExchangeRate_PoundToUGx() {
         double expectedRate = 1.20;
         double actualRate = exchangeRate.getExchangeRate("POUND", "EURO");
-        assertEquals(expectedRate, actualRate, 0.001, "POUND to EURO conversion rate should be 1.20");
+        assertEquals(expectedRate, formalRate, 0.001, "POUND to EURO conversion rate should be 1.20");
     }
 
     @Test
