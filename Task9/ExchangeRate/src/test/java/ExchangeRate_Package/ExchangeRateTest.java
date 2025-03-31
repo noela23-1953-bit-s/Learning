@@ -9,7 +9,7 @@ class ExchangeRateTest {
     private covension convension;
 
     @BeforeEach
-    void setUp() {
+   public void setUp() {
         exchangeRate = new ExchangeRate();
     }
 
